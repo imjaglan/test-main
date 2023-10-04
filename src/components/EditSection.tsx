@@ -41,7 +41,7 @@ const EditSection: FC<EditSectionProps> = ({ handleChange, dataToSave }) => {
   const handleQuestionChange = (number: any, text: any) => {
     handleChange({
       target: {
-        name: `ques${number}`,
+        name: `question.ques${number}`,
         value: text,
       },
     });
